@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../.resources/report.gif" type="image/gif"/><title>variableValues.java</title><link rel="stylesheet" href="../../../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../.sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">KWIC (May 31, 2015 7:57:00 PM)</a> &gt; <a href="../../index.html" class="el_group">KWIC</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">kwic</a> &gt; <span class="el_source">variableValues.java</span></div><h1>variableValues.java</h1><pre class="source lang-java linenums">package kwic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+// //Helper class containing variables
+
+public class variableValues {
+	// Counter of instances found for this keyword
+	private int wordCount;
+	// List of Keyword instances with details
+<span class="pc" id="L12">	private List&lt;KeywordData&gt; detailList = new ArrayList&lt;KeywordData&gt;();</span>
+	
+	// Basic Constructor
+<span class="nc" id="L15">	protected variableValues(){</span>
+<span class="nc" id="L16">		this.wordCount = 0;</span>
+<span class="nc" id="L17">	}</span>
+	
+	// Constructor that sets wordCount and adds to detailList
+<span class="fc" id="L20">	protected variableValues(int count,KeywordData details){</span>
+<span class="fc" id="L21">		this.wordCount = count;</span>
+<span class="fc" id="L22">		detailList.add(details);</span>
+<span class="fc" id="L23">	}</span>
+	
+	// get wordCount
+	protected int getWordCount(){
+<span class="fc" id="L27">		return wordCount;</span>
+	}
+	
+	// set wordCount
+	protected void setWordCount(int count){
+<span class="nc" id="L32">		this.wordCount = count;</span>
+<span class="nc" id="L33">	}</span>
+	
+	// Increment word count
+	protected void incrementWordCount(){
+<span class="fc" id="L37">		wordCount++;</span>
+<span class="fc" id="L38">	}</span>
+	
+	// get detailList
+	protected List&lt;KeywordData&gt; getDetailList(){
+<span class="fc" id="L42">		return detailList;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.2.201409121644</span>KWIC (May 31, 2015 7:57:00 PM)</div></body></html>

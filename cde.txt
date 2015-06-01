@@ -1,0 +1,6 @@
+ * This is the main class for performing a Key Word In Context (KWIC)
+ * search on an ASCII file.  It contains the main data structures that 
+ * hold the index generated from the text file and provides all the 
+ * mechanisms to parse the file, generate the index, and lookup 
+ * keywords from the index. 
+ * 

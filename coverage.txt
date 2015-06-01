@@ -1,0 +1,20 @@
+[EMMA v2.0.5312 report, generated Sun May 31 19:39:55 EDT 2015]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/8)!	0%   (0/564)!	0%   (0/128)!	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	1
+total classes:	1
+total methods:	8
+total executable files:	1
+total executable lines:	128
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/8)!	0%   (0/564)!	0%   (0/128)!	kwic
+-------------------------------------------------------------------------------
