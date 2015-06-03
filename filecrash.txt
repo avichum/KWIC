@@ -1,0 +1,202 @@
+Wikipedia was founded as an offshoot of Nupedia, a now-abandoned project to produce a free encyclopedia. Nupedia had an elaborate system of peer review and required highly qualified contributors, but the writing of articles was slow. During 2000, Jimmy Wales, founder of Nupedia, and Larry Sanger, whom Wales had employed to work on the project, discussed ways of supplementing Nupedia with a more open, complementary project. Multiple sources suggested that a wiki might allow members of the public to contribute material, and Nupedia's first wiki went online on January 10, 2001.
+
+There was considerable resistance on the part of Nupedia's editors and reviewers to the idea of associating Nupedia with a website in the wiki format, so the new project was given the name "Wikipedia" and launched on its own domain, wikipedia.com, on January 15 (now called "Wikipedia Day" by some users). The bandwidth and server (in San Diego) were donated by Wales. Other current and past Bomis employees who have worked on the project include Tim Shell, one of the cofounders of Bomis and its current CEO, and programmer Jason Richey. The domain was eventually changed to the present wikipedia.org when the not-for-profit Wikimedia Foundation was launched as its new parent organization, with the ".org" top-level domain denoting its non-commercial nature.
+
+In May 2001, a large number of non-English Wikipedias were launched—in Catalan, Chinese, Dutch, Esperanto, French, German, Hebrew, Italian, Japanese, Portuguese, Russian, Spanish, and Swedish. These were soon joined by Arabic and Hungarian. In September,[2] Polish was added, and further commitment to the multilingual provision of Wikipedia was made. At the end of the year, Afrikaans, Norwegian, and Serbo-Croatian versions were announced.
+
+Wikipedia contributors
+Main pages: Wikipedia:Who writes Wikipedia and Wikipedia:Wikipedians
+File:The Impact Of Wikipedia.webm
+Wikipedia Contributors
+Anyone with Web access can edit Wikipedia, and this openness encourages inclusion of a tremendous amount of content. About 77,000 editors—from expert scholars to casual readers—regularly edit Wikipedia, and these experienced editors often help to create a consistent style throughout the encyclopedia, following our Manual of Style.
+
+Several mechanisms are in place to help Wikipedia members carry out the important work of crafting a high-quality resource while maintaining civility. Editors are able to watch pages and technically skilled persons can write editing programs to keep track of or rectify bad edits. Where there are disagreements on how to display facts, editors often work together to compile an article that fairly represents current expert opinion on the subject.
+
+Although the Wikimedia Foundation owns the site, it is largely uninvolved in writing and daily operations.
+
+Trademarks and copyrights
+Main pages: Wikipedia:Copyrights and wmf:Trademark policy
+"Wikipedia" is a registered trademark of the not-for-profit Wikimedia Foundation, which has created a family of free-content projects that are built by user contributions.
+
+Most of Wikipedia's text and many of its images are dual-licensed under the Creative Commons Attribution-Sharealike 3.0 Unported License (CC-BY-SA) and the GNU Free Documentation License (GFDL) (unversioned, with no invariant sections, front-cover texts, or back-cover texts). Some text has been imported only under CC-BY-SA and CC-BY-SA-compatible license and cannot be reused under GFDL; such text is identified either on the page footer, in the page history or on the discussion page of the article that utilizes the text. Every image has a description page which indicates the license under which it is released or, if it is non-free, the rationale under which it is used.
+
+Contributions remain the property of their creators, while the CC-BY-SA and GFDL licenses ensure the content is freely distributable and reproducible. (See content disclaimer for more information.)
+
+Credits
+Text on Wikipedia is a collaborative work, and the efforts of individual contributors to a page are recorded in that page's history, which is publicly viewable. Information on the authorship of images and other media, such as sound files, can be found by clicking on the image itself or the nearby information icon to display the file page, which includes the author and source, where appropriate, along with other information.
+
+Making the best use of Wikipedia
+See also: Reader’s Guide to Wikipedia
+Readers' FAQ and help
+
+About Wikipedia Authority control Categories Censorship Copyright Disambiguation Images and multimedia ISBN Microformats Mobile access Navigation Other languages Page names Portals Protected pages Searching Student help
+Readers' glossary
+Readers' index
+Researching with Wikipedia
+Reader’s Guide to Wikipedia
+Contributing to Wikipedia
+v t e
+Exploring Wikipedia
+Main page: Portal:Contents
+Many visitors come to Wikipedia to acquire knowledge, while others come to share knowledge. At this very instant, dozens of articles are being improved, and new articles are also being created. Changes can be viewed at the Recent changes page and a random page at random articles. Over 3,500 articles have been designated by the Wikipedia community as featured articles, exemplifying the best articles in the encyclopedia. Another 15,000 articles are designated as good articles. Some information on Wikipedia is organized into lists; the best of these are designated as featured lists. Wikipedia also has portals, which organize content around topic areas; our best portals are selected as featured portals. Articles can be found using the search box on the top-right side of the screen.
+
+Wikipedia is available in languages other than English. Wikipedia has more than two hundred and eighty languages, including a Simple English version, and related projects include a dictionary, quotations, books, manuals, and scientific reference sources, and a news service (see sister projects). All of these are maintained, updated, and managed by separate communities, and often include information and articles that can be hard to find through other common sources.
+
+Basic navigation in Wikipedia
+Main page: Help:Navigation
+Wikipedia articles are all linked, or cross-referenced. When highlighted text like this is seen, it means there is a link to some relevant article or Wikipedia page with further in-depth information. Holding the mouse over the link will often show to where the link will lead. There are other links towards the ends of most articles, for other articles of interest, relevant external websites and pages, reference material, and organized categories of knowledge which can be searched and traversed in a loose hierarchy for more information. Some articles may also have links to dictionary definitions, audio-book readings, quotations, the same article in other languages, and further information available on our sister projects. Additional links can be easily made if a relevant link is missing—this is one simple way to contribute.
+
+Using Wikipedia as a research tool
+Main pages: Wikipedia:Researching with Wikipedia and Wikipedia:Citing Wikipedia
+As wiki documents, articles are never considered complete and may be continually edited and improved. Over time, this generally results in an upward trend of quality and a growing consensus over a neutral representation of information.
+
+Users should be aware that not all articles are of encyclopedic quality from the start: they may contain false or debatable information. Indeed, many articles start their lives as displaying a single viewpoint; and, after a long process of discussion, debate, and argument, they gradually take on a neutral point of view reached through consensus. Others may, for a while, become caught up in a heavily unbalanced viewpoint which can take some time—months perhaps—to achieve better balanced coverage of their subject. In part, this is because editors often contribute content in which they have a particular interest and do not attempt to make each article that they edit comprehensive. However, eventually, additional editors expand and contribute to articles and strive to achieve balance and comprehensive coverage. In addition, Wikipedia operates a number of internal resolution processes that can assist when editors disagree on content and approach. Usually, editors eventually reach a consensus on ways to improve the article.
+
+The ideal Wikipedia article is well written, balanced, neutral, and encyclopedic, containing comprehensive, notable, verifiable knowledge. An increasing number of articles reach this standard over time, and many already have. Our best articles are called Featured Articles (and display a small star in the upper right corner of the article), and our second best tier of articles are designated Good Articles. However, this is a process and can take months or years to be achieved, as each user adds their contribution in turn. Some articles contain statements which have not yet been fully cited. Others will later be augmented with new sections. Some information will be considered by later contributors to be insufficiently founded and, therefore, may be removed.
+
+While the overall trend is toward improvement, it is important to use Wikipedia carefully if it is intended to be used as a research source, since individual articles will, by their nature, vary in quality and maturity. Guidelines and information pages are available to help users and researchers do this effectively, as is an article that summarizes third-party studies and assessments of the reliability of Wikipedia.
+
+Wikipedia vs paper encyclopedias
+Main article: Wiki is not paper, on Wikimedia Meta-Wiki.
+Wikipedia has advantages over traditional paper encyclopedias. Wikipedia has a very low "publishing" cost for adding or expanding entries and a low environmental impact in some respects, since it never needs to be printed, although computers have their own environmental cost. In addition, Wikipedia has wikilinks instead of in-line explanations and it incorporates overview summaries (article introductions) with the extensive detail of full articles. Additionally, the editorial cycle is short. A paper encyclopedia stays the same until the next edition, whereas editors can update Wikipedia at any instant, around the clock, keeping articles abreast of the most recent events and scholarship.
+
+Strengths, weaknesses, and article quality in Wikipedia
+Main pages: Wikipedia:Why Wikipedia is so great and Wikipedia:Why Wikipedia is not so great
+See also: Reliability of Wikipedia and Wikipedia:Researching with Wikipedia
+Wikipedia's greatest strengths, weaknesses, and differences all arise because it is open to anyone, it has a large contributor base, and its articles are written by consensus, according to editorial guidelines and policies.
+
+Wikipedia is open to a large contributor base, drawing a large number of editors from diverse backgrounds. This allows Wikipedia to significantly reduce regional and cultural bias found in many other publications, and makes it very difficult for any group to censor and impose bias. A large, diverse editor base also provides access and breadth on subject matter that is otherwise inaccessible or little documented. A large number of editors contributing at any moment also means that Wikipedia can produce encyclopedic articles and resources covering newsworthy events within hours or days of their occurrence. It also means that like any publication, Wikipedia may reflect the cultural, age, socio-economic, and other biases of its contributors. There is no systematic process to make sure that "obviously important" topics are written about, so Wikipedia may contain unexpected oversights and omissions. While most articles may be altered by anyone, in practice editing will be performed by a certain demographic (younger rather than older, male rather than female, rich enough to afford a computer rather than poor, et cetera) and may, therefore, show some bias. Some topics may not be covered well, while others may be covered in great depth.
+Allowing anyone to edit Wikipedia means that it is more easily vandalized or susceptible to unchecked information, which requires removal. See Wikipedia:Administrator intervention against vandalism. While blatant vandalism is usually easily spotted and rapidly corrected, Wikipedia is more subject to subtle viewpoint promotion than a typical reference work. However, bias that would be unchallenged in a traditional reference work is likely to be ultimately challenged or considered on Wikipedia. While Wikipedia articles generally attain a good standard after editing, it is important to note that fledgling articles and those monitored less well may be susceptible to vandalism and insertion of false information. Wikipedia's radical openness also means that any given article may be, at any given moment, in a bad state, such as in the middle of a large edit, or a controversial rewrite. Many contributors do not yet comply fully with key policies, or may add information without citable sources. Wikipedia's open approach tremendously increases the chances that any particular factual error or misleading statement will be relatively promptly corrected. Numerous editors at any given time are monitoring recent changes and edits to articles on their watchlist.
+Wikipedia is written by open and transparent consensus—an approach that has its pros and cons. Censorship or imposing "official" points of view is extremely difficult to achieve and usually fails after a time. Eventually for most articles, all notable views become fairly described and a neutral point of view reached. In reality, the process of reaching consensus may be long and drawn-out, with articles fluid or changeable for a long time while they find their "neutral approach" that all sides can agree on. Reaching neutrality is occasionally made harder by extreme-viewpoint contributors. Wikipedia operates a full editorial dispute resolution process, one that allows time for discussion and resolution in depth, but one that also permits disagreements to last for months before poor-quality or biased edits are removed. A common conclusion is that Wikipedia is a valuable resource and provides a good reference point on its subjects.
+That said, articles and subject areas sometimes suffer from significant omissions, and while misinformation and vandalism are usually corrected quickly, this does not always happen. (See for example this incident in which a person inserted a fake biography linking a prominent journalist to the Kennedy assassinations and Soviet Russia as a joke on a co-worker which went undetected for four months, saying afterwards he "didn’t know Wikipedia was used as a serious reference tool".)
+Wikipedia is written largely by amateurs. Those with expert credentials are given no additional weight. Wikipedia is also not subject to any peer review for scientific, medical or engineering articles. One advantage to having amateurs write in Wikipedia is that they have more free time on their hands so that they can make rapid changes in response to current events. The wider the general public interest in a topic, the more likely it is to attract contributions from non-specialists.
+The MediaWiki software that runs Wikipedia retains a history of all edits and changes, thus information added to Wikipedia never "vanishes". Discussion pages are an important resource on contentious topics. Therefore, serious researchers can often find a wide range of vigorously or thoughtfully advocated viewpoints not present in the consensus article. As with any source, information should be checked. A 2005 editorial by a BBC technology writer comments that these debates are probably symptomatic of cultural changes that are happening across all sources of information (including search engines and the media), and may lead to "a better sense of how to evaluate information sources".[3]
+
+Disclaimers
+Disclaimers
+General
+Content
+Legal
+Medical
+Risk
+Related
+Academic use
+Non-Wikipedia
+v t e
+Main page: Wikipedia:Disclaimers
+Wikipedia disclaimers apply to all pages on Wikipedia. However, the consensus in Wikipedia is to put all disclaimers only as links and at the end of each article. Proposals to have a warning box at the beginning have been rejected. Some do not like the way it looks or that it calls attention to possible errors in Wikipedia.
+
+Wikipedia, in common with many websites, has a disclaimer that, at times, has led to commentators citing these in order to support a view that Wikipedia is unreliable. A selection of similar disclaimers from places which are often regarded as reliable (including sources such as Encyclopædia Britannica, Associated Press, and the Oxford English Dictionary) can be read and compared at Wikipedia:Non-Wikipedia disclaimers. Wikipedia content advisories can also be found here.
+
+Contributing to Wikipedia
+Main page: Wikipedia:Contributing to Wikipedia
+See also Wikipedia:Starting an article.
+Guide to fixing vandalism: Help:Reverting.
+Contributing to Wikipedia
+QA icon.svg
+Protocols
+Editing policy (Content policies) Etiquette guide (Dispute resolution) Simple rule-set Simple style-manual
+Introductions
+About Wikipedia How to contribute Tutorial Newcomer training Newcomers primer Plain & simple The Wikipedia Adventure
+How-to pages
+Creating an account How to edit Starting an article (Article wizard) Talk pages (BOLD, revert, discuss) Referencing Renaming Deletion Media Lists Tables Templates Copying text Style-tips Wiki markup
+Writing advice
+Article development Basic copyediting Layouts Avoiding mistakes Writing better Perfect article Advanced editing
+Community
+Community portal Dashboard Backlog Maintenance WikiProjects
+Directories
+FAQs Editor's index Help index
+Interactive help
+Teahouse Help desk
+v t e
+
+A downloadable "Editing Wikipedia guide" in PDF form written by the staff at the Wikimedia Foundation
+Anyone can contribute to Wikipedia by clicking on the Edit tab in an article. Before beginning to contribute, however, read some handy helping tools such as the tutorial and the policies and guidelines, as well as our welcome page. Creating an account offers many benefits. It is important to realize that in contributing to Wikipedia, users are expected to be civil and neutral, respecting all points of view, and only add verifiable and factual information rather than personal views and opinions. "The five pillars of Wikipedia" cover this approach and are recommended reading before editing. (Vandals are reported via the Administrator Notice Board and may be temporarily blocked from editing Wikipedia.)
+
+Most articles start as stubs, but after many contributions, they can become featured articles. Once the contributor has decided a topic of interest, they may want to request that the article be written (or they could research the issue and write it themselves). Wikipedia has on-going projects, focused on specific topic areas or tasks, which help coordinate editing.
+
+The ease of editing Wikipedia results in many people editing. That makes the updating of the encyclopedia very quick, almost as fast as news websites.
+
+Editing Wikipedia pages
+Main pages: Wikipedia:How to edit a page and Help:Wiki markup
+File:Wikipedia video tutorial-1-Editing-en.ogv
+Editing tutorial for Wikipedia using classic wiki markup. (3:07 min)
+Wikipedia uses a simple yet powerful page layout to allow editors to concentrate on adding material rather than page design. Page aspects facilitated include:
+
+sections and subsections—which follow a page's lead section/introduction and (if specific conditions are met) a table of contents,
+references,
+images,
+tables,
+indentations
+lists,
+links,
+ISBNs,
+maths,
+formatting elements and most world alphabets and common symbols, Most of which have simple formats that are deliberately very easy and intuitive.
+Normally editing is chosen by clicking the Edit tab at the top of a Wikipedia page (or on a section-edit link). This will take you to a new page with a text box containing the editable text of the page you were viewing. In this box, you can type in the text that you want to add, using wiki markup to format the text and add other elements like images and tables. You should then press the Show preview button to review your contributions for any errors. When you have finished editing, you should write a short edit summary in the small field below the edit-box describing your changes before you press the Save page button. This will help others to understand the intention of your edit. To avoid accidentally leaving edit summaries blank, you can select "Prompt me when entering a blank edit summary" on the Editing tab of your personal preferences.
+
+Page editing is accessed through tabs that are found along the top edge of the page. These are:
+
+Article. Shows the main Wikipedia article.
+Talk. Shows a user discussion about the article's topic and possible revisions, controversies, etc.
+Edit. This tab allows users to edit the article. Depending on the page’s susceptibility to vandalism, according to its visibility or the degree of controversy surrounding the topic, this tab may not be shown for all users. (For example, any user who is not an administrator will not be able to edit the Main Page.)
+View history. This tab allows readers to view the editors of the article and the changes that have been made.
+Star. ("Watch") If you are logged in to your account, clicking on the star icon will cause any changes made to the article to be displayed on the watchlist. (Note: when this icon is clicked, it changes to a filled-in star.)
+Wikipedia has robust version and reversion controls. This means that poor-quality edits or vandalism can quickly and easily be reversed or brought up to an appropriate standard by any other editor, so inexperienced editors cannot accidentally do permanent harm if they make a mistake in their editing. As there are many more editors intent on improving articles than not, error-ridden articles are usually corrected promptly.
+
+Wikipedia content criteria
+Main pages: Wikipedia:Wikipedia in brief and Wikipedia:Core content policies
+Core content policies
+Neutral point of view
+No original research
+Verifiability
+Other content policies
+Article titles
+Biographies of living persons
+Image use policy
+What Wikipedia is not
+v t e
+Wikipedia content is intended to be factual, notable, verifiable with cited external sources, and neutrally presented.
+
+The appropriate policies and guidelines for these are found at:
+
+Wikipedia:What Wikipedia is not, which summarizes what belongs in Wikipedia and what does not;
+Wikipedia:Neutral point of view, which describes Wikipedia's mandatory core approach to neutral, unbiased article-writing;
+Wikipedia:No original research, which prohibits the use of Wikipedia to publish personal views and original research of editors and defines Wikipedia's role as an encyclopedia of existing recognized knowledge;
+Wikipedia:Verifiability, which explains that it must be possible for readers to verify all content against credible external sources (following the guidance in the Wikipedia:Risk disclaimer that is linked-to at the end of every article);
+Wikipedia:Reliable sources, which explains what factors determine whether a source is acceptable;
+Wikipedia:Citing sources, which describes the manner of citing sources so that readers can verify content for themselves;
+And Wikipedia:Manual of Style, which offers a style guide—in general editors tend to acquire knowledge of appropriate writing styles and detailed formatting over time.
+These are often abbreviated to WP:NOT, WP:NPOV, WP:NOR, WP:V, WP:RS, WP:CITE, and WP:MOS respectively.
+
+Editorial administration, oversight, and management
+Main page: Wikipedia:Editorial oversight and control
+File:Wikipedia video tutorial-2-Reliability-en.ogv
+Video guided tour #2: Why does Wikipedia work even though anyone can edit it?
+The Wikipedia community is largely self-organising, so that anyone may build a reputation as a competent editor and become involved in any role s/he may choose, subject to peer approval. Individuals often will choose to become involved in specialised tasks, such as reviewing articles at others' request, watching current edits for vandalism, watching newly created articles for quality control purposes, or similar roles. Editors who believe they can serve the community better by taking on additional administrative responsibility may ask their peers for agreement to undertake such responsibilities. This structure enforces meritocracy and communal standards of editorship and conduct. At present a minimum approval of 75–80% from the community is required to take on these additional tools and responsibilities. This standard tends to ensure a high level of experience, trust, and familiarity across a broad front of aspects within Wikipedia.
+
+A variety of software-assisted systems and automated programs help editors and administrators to watch for problematic edits and editors. Theoretically all editors and users are treated equally with no "power structure". There is, however, a hierarchy of permissions and positions, some of which are listed hereafter:
+
+Anyone can edit most of the articles here. Some articles are protected because of vandalism or edit-warring, and can only be edited by certain editors.
+Anyone with an account that has been registered for four days or longer and has made at least ten edits becomes autoconfirmed, and gains the technical ability to do three things that non-autoconfirmed editors cannot:
+Move articles.
+Edit semi-protected articles.
+Vote in certain elections (minimum edit count to receive suffrage varies depending on the election).
+Many editors with accounts obtain access to certain tools that make editing easier and faster. Few editors learn about most of those tools, but one common privilege granted to editors in good standing is "rollback", which is the ability to undo edits more easily.
+Administrators ("admins" or "sysops") have been approved by the community, and have access to some significant administrative tools. They can delete articles, block accounts or IP addresses, and edit fully protected articles.
+Bureaucrats are chosen in a process similar to that for selecting administrators. There are not very many bureaucrats. They have the technical ability to add or remove admin rights, approve or revoke "bot" privileges, and rename user accounts.
+The Arbitration Committee is analogous to Wikipedia's supreme court. They deal with disputes that remain unresolved after other attempts at dispute resolution have failed. Members of this Committee are elected by the community and tend to be selected from among the pool of experienced admins.
+Stewards are the top echelon of technical permissions. Stewards can do a few technical things, and one almost never hears much about them since they normally only act when a local admin or bureaucrat is not available, and hence almost never on the English Wikipedia. There are very few stewards.
+Jimmy Wales, the founder of Wikipedia, has several special roles and privileges. In most instances, however, he does not expect to be treated differently than any other editor or administrator.
+Handling disputes and abuse
+Main pages: Wikipedia:Vandalism, Wikipedia:Dispute resolution, Wikipedia:Consensus, Wikipedia:Sock puppetry and Wikipedia:Conflict of interest
+Wikipedia has a rich set of methods to handle most abuses that commonly arise. These methods are well-tested and should be relied upon.
+Intentional vandalism can be reported and corrected by anyone.
+Unresolved disputes between editors, whether based upon behavior, editorial approach, or validity of content, can be addressed through the talk page of an article, through requesting comments from other editors or through Wikipedia's comprehensive dispute resolution process.
+Abuse of user accounts, such as the creation of "Internet sock puppets" or solicitation of friends and other parties to enforce a non-neutral viewpoint or inappropriate consensus within a discussion, or to disrupt other Wikipedia processes in an annoying manner, are addressed through the sock puppet policy.
+In addition, new users may initially find that their votes are given less weight by editors in some informal polls in order to prevent abuse of single-purpose accounts.
+Editorial quality review
+As well as systems to catch and control substandard and vandalistic edits, Wikipedia also has a full style and content manual and a variety of positive systems for continual article review and improvement. Examples of the processes include peer review, good article assessment, and the featured article process, a rigorous review of articles that are intended to meet the highest standards and showcase Wikipedia's capability to produce high-quality work.
+In addition, specific types of article or fields often have their own specialized and comprehensive projects, assessment processes (such as biographical article assessment), and expert reviewers within specific subjects. Nominated articles are also frequently the subject of specific focus on the neutral point of view noticeboard or in WikiProject Cleanup.
+Technical attributes
+Wikipedia uses MediaWiki software, the open-source program used not only on Wikimedia projects but also on many other third-party websites. The hardware supporting the Wikimedia projects is based on several hundred servers in various hosting centers around the world. Full descriptions of these servers and their roles are available on this Meta-Wiki page. For technical information about Wikipedia, check Technical FAQ. Wikipedia publishes various types of metadata; and, across its pages, are many thousands of microformats.

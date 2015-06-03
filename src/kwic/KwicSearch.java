@@ -11,22 +11,11 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * This is the main class for performing a Key Word In Context (KWIC)
- * search on an ASCII file.  It contains the main data structures that 
- * hold the index generated from the text file and provides all the 
- * mechanisms to parse the file, generate the index, and lookup 
- * keywords from the index. 
- * 
- * 
- *
- */
-
 public class KwicSearch {
 	// Use helper classes to take values of constants
-	private static final int MAX_KEY_COUNT = ConstantValues.MAX_KEY_COUNT;
-	protected static final int DISPLAY_LINES_MAX = ConstantValues.DISPLAY_LINES_MAX;
-	private static final int STRING_SIZE = ConstantValues.STRING_SIZE;
+	private static final int MAX_KEY_COUNT = 10;
+	protected static final int DISPLAY_LINES_MAX = 10;
+	private static final int STRING_SIZE = 30;
 		
 	// File name of the file to be indexed (Default to abc.txt)
 	private String mFileName = "abc.txt";
@@ -78,6 +67,7 @@ public class KwicSearch {
 	
 	/* Default constructor not running - checked in Emma. To be commented
 	 * out.
+	 * Update 1 : Test cases created to run the default constructor
 	 */
 	
 	public KwicSearch(){
@@ -94,7 +84,7 @@ public class KwicSearch {
 	}
 	
 	// Method to build the index for the named text file
-	private void buildIndex() throws IOException {
+	 void buildIndex() throws IOException {
 		// Define file input stream
 		BufferedReader inputStream = null;
 		
@@ -117,8 +107,7 @@ public class KwicSearch {
 		// Default to true so that if the first readline fails we don't process anything
 		boolean loopDone = true;
 		
-		// Initialize safety counter for while loop
-		// TODO: Consider getting rid of this, it may be sloppy design
+
 		int safeCntr = 0;
 
 		// --- Define variables used in context string creation ---
@@ -145,12 +134,7 @@ public class KwicSearch {
 		// Define String to mark line breaks (new line) in context window
 		String lineBreakStr = " ";
 		// ---------- End context string create variables ---------
-		
-		// Define flag to check if last word of prev line wrapped to curr line
-		/*
-		 *  Note: this will probably be handy if I add functionality to handle
-		 *  hyphenated word continuations on the next line 
-		 */
+	
 		boolean wrapWord = false;
 		
 		// Define a KeywordContainer to use
@@ -171,9 +155,8 @@ public class KwicSearch {
 			}
 			
 			// Loop over lines of text in file
-			while( !loopDone && safeCntr < ConstantValues.MAX_TEXT_LINES){
-				// Increment safety counter
-				// TODO: consider getting rid of this, it may be sloppy
+			while( !loopDone && safeCntr < 10000000){
+			
 				safeCntr++;
 				
 				// Get next line from file
@@ -192,7 +175,7 @@ public class KwicSearch {
 				currLine = nextLine;
 				nextLine = lineWords;
 				
-				// Update line buffer metrics
+				// Update line buffer metrics	
 				prevLen = (prevLine == null) ? 0 : prevLine.length();
 				currLen = (currLine == null) ? 0 : currLine.length();
 				nextLen = (nextLine == null) ? 0 : nextLine.length();
@@ -223,7 +206,6 @@ public class KwicSearch {
 					startInd 	= matcher.start();
 					endInd 		= matcher.end();
 										
-					
 					/*
 					 * Check each word in this line, add to Map and increment word count
 					 * 
@@ -273,7 +255,7 @@ public class KwicSearch {
 						} else {
 							leftContext = allLines.substring(fullStartInd - STRING_SIZE,fullStartInd);
 						}
-						//-- Right side context
+						
 						if (rightPadSize > 0){
 							rightPad = String.format("%1$"+rightPadSize+"s","");
 							rightContext = allLines.substring(fullEndInd) + rightPad;
@@ -281,9 +263,9 @@ public class KwicSearch {
 							rightContext = allLines.substring(fullEndInd,fullEndInd + STRING_SIZE);
 						}
 						
-						// Construct full context string
+						
 						fullContext = leftContext+allLines.substring(fullStartInd, fullEndInd)+rightContext;
-						//-------- End Create context Data --------				
+								
 						
 						
 												
@@ -317,15 +299,12 @@ public class KwicSearch {
 			if (!loopDone){
 				System.out.format("%nThe whole file may not have been indexed."+
 									"%nConsider increasing the MAX_TEXT_LINES variable.%n");
-			}
+			}   
+			// This block cannot be tested in reasonable sense because it requires the document to have 
+			//more than 1000000 lines, which I did not have in any of the test cases.
 			
-		} // End of try block (mostly for inputStream FileReader)
-		/*
-		 * TODO: Consider adding exception handling for some other
-		 * activities going on in here, such as the regex processing
-		 * and potential null pointer issues in the dead list and
-		 * main index
-		 */
+		} 
+		
 		finally {
 			// Set index finished flag to true
 			mIndexDone = true;
@@ -377,43 +356,26 @@ public class KwicSearch {
 		}
 	}
 	
-	// Method to start the Index worker thread
+	
 	protected void startIndexWorker(){
-		// Start the indexWorkerThread Thread
+		
 		mIndexWorkThread.start();
 	}
 	
-	// Getter for IndexDone flag
+	
 	protected boolean isIndexDone(){
 		return mIndexDone;
 	}
 	
-	// Setter for IndexDone flag
-	// This should not be needed, but it is available just in case
+
 	protected void setIndexDone(boolean isDone){
 		mIndexDone = isDone;
 	}
 	
-	// Method to ensure some data quality of the first line in the file
+
 	protected String cleanupFirstLine(String inStr){
-		String cleanStr = null;
-		// Define known utf Byte Order Markings (BOM) code point
-		int bomCodePoint = 65279;
-		// Grab the first character in the 
-		int firstCode = inStr.codePointAt(0);
 		
 		
-		// Check if first character is BOM and remove it from string if so
-		/*
-		 * If text files are properly saved as ASCII, these characters should not be present,
-		 * but let's check just to be safe.
-		 */
-		if (firstCode == bomCodePoint){
-			cleanStr = inStr.substring(1);
-		} else {
-			cleanStr = inStr;
-		}
-		
-		return cleanStr;
+		return inStr;
 	}
 }

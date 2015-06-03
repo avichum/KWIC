@@ -25,7 +25,7 @@ import java.util.Scanner;
  * 
  * Known issues: (Solved)
  * 1) The program does not distinguish between special characters combined with words.
- * Fore example, it cannot tell if index is the same as "index,". The later will throw an error. 
+ * For example, it cannot tell if index is the same as "index,". The later will throw an error. 
  * 2) The program does not ignore special characters on their own. They are treated as individual words
  * and hence will throw a "not found" error.
  * @ Author: Avichal Chum
@@ -61,7 +61,7 @@ public class kwic {
 	}
 
 //File selection
-	private int selectFile(int stateFlag) throws IOException {
+	int selectFile(int stateFlag) throws IOException {
 		// Define holder for user inputs
 		String inputStr;
 		// Define holder for file name
@@ -84,7 +84,11 @@ public class kwic {
 				
 				
 			}
-			
+			if(stateFlag==5)		// To test exit case
+				inputStr="exit";
+		
+			if(stateFlag==7) 		// To test Null pointer exception
+				inputStr="doesnotexist.txt";
 			
 		
 			if (inputStr.equalsIgnoreCase("exit")){
@@ -142,8 +146,8 @@ public class kwic {
 		return stateFlag;
 	}
 	
-	// Implement the bells and whistles for UI in State 2: Keyword search
-	private int displayIndex(int stateFlag){
+	
+	public int displayIndex(int stateFlag){
 		/*
 		 * Define local KWIC search object
 		 * For now we will always assume we want the first
@@ -159,21 +163,12 @@ public class kwic {
 			
 			System.out.println("Indexing complete. Press enter to display generated KWIC index.");
 			
+			
+		
+			
 			inputStr = mCmndIn.nextLine();
 			
-			// Check for exit
-			if (inputStr.equalsIgnoreCase("exit")){
-				// Double Check Before Exiting
-				System.out.format("%nYou entered: %s%n", inputStr);
-					inputStr = "y";
-				if (inputStr.equalsIgnoreCase("y")){
-					System.out.format("%nProgram exiting%n");
-					// Set return code to 0, which should cause the program to exit
-					stateFlag = 0;
-				} else {
-					System.out.format("%nGreat!  Glad you are sticking around%n");
-				}
-			} else {
+		
 				/*
 				 * Grab the desired KWIC search object
 				 * For now we will always assume we want the first
@@ -186,7 +181,7 @@ public class kwic {
 					if (!localKwicker.isIndexDone()){ // Index not yet complete
 						System.out.format("%nOh, the file is still being indexed.  Please try again in a bit%n");
 					} else { // Index is complete, check for results
-						// TODO: Consider doing cleanup on input string
+						
 						String wordlist[]=processSearch(mFileName);
 						for(int i=0;i<wordlist.length-1;i++){
 							if(wordlist[i].equals(wordlist[i+1])) //array out of bounds potential
@@ -204,7 +199,7 @@ public class kwic {
 					System.out.format("%nHmm, that's weird. Couldn't find that search object%n");
 				}
 				
-			}
+			
 			stateFlag = 0;
 		} catch (NoSuchElementException e) {
 			e.printStackTrace();
@@ -221,7 +216,7 @@ public class kwic {
 	
 	
 	// Method to Execute Main User Interface State Machine
-	private void launchMainControl(){
+	public void launchMainControl(){
 		// Define state flag (Default to file input state)
 		int stateFlag = 1;
 				
@@ -306,13 +301,15 @@ public class kwic {
 		 for(int i=0;i<wordlist.length;i++)
 			 wordlistnew[i]=wordlist[i].toLowerCase(); 
 		 //Convert everything to lower case to avoid processing same words twice
+	
 		 Arrays.sort(wordlistnew);
+		
 //Sort array alphabetically and return to retrieve instances and indexes. 
 		 		 
 		 return wordlistnew;
 	}
 	
-	 private static String readText(String InputFile) {
+	 static String readText(String InputFile) {
 		 String text = "";
 		 try{
 		         FileInputStream fstream = new FileInputStream(InputFile);
@@ -325,8 +322,12 @@ public class kwic {
 		         br.close();
 		     } catch (FileNotFoundException e) {
 		 e.printStackTrace();
-		 } catch (IOException e) {
+		 
+		 } 
+		 
+		 catch (IOException e) {
 		 e.printStackTrace();
+		 
 		 } 
 		 return text;
 		 
@@ -335,16 +336,22 @@ public class kwic {
 	
 	public static void main(String[] args) {
 		kwic kwicker;
+		String filename="";
 		
-
-		if (args.length > 0){
-			kwicker = new kwic(args[0]);
+		if(args.length>0 && args!=null){	
+		filename=args[0];
+		}
+		
+		if (args.length > 0 && args!=null){
+			kwicker = new kwic(filename);
 		} else {
 			kwicker = new kwic();
 		}
 					
-		// Launch User Interface
+		
 		kwicker.launchMainControl();
 	}
+
+	
 
 }
